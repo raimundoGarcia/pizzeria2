@@ -29,7 +29,6 @@
             <Font name="Segoe Script" size="18.0" />
          </font>
       </Label>
-      <Button fx:id="precio" layoutX="367.0" layoutY="578.0" mnemonicParsing="false" onAction="#calcular" prefHeight="25.0" prefWidth="200.0" text="Calcular precio" />
       <Label fx:id="precioFinal" layoutX="672.0" layoutY="613.0" prefHeight="27.0" prefWidth="62.0">
          <font>
             <Font size="18.0" />

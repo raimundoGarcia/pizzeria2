@@ -8,7 +8,6 @@ import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.SplitPane;
@@ -65,8 +64,6 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private ToggleGroup masa;
     @FXML
-    private Button precio;
-    @FXML
     private Label textPizza;
     @FXML
     private Label textMasa;
@@ -121,14 +118,6 @@ public class FXMLDocumentController implements Initializable {
 
     }
 
-    @FXML
-    private void calcular(ActionEvent event) {
-        preciosBases();
-        verSelec();
-        verIngrExtra();
-        precioIngreExtra();
-        calculoPrecioPizza();
-    }
 
     @FXML
     private void seleccion(ActionEvent event) {
@@ -136,6 +125,11 @@ public class FXMLDocumentController implements Initializable {
         bordePizza();
         bordeIngredientes();
         bordeMasa();
+        preciosBases();
+        verSelec();
+        verIngrExtra();
+        precioIngreExtra();
+        calculoPrecioPizza();
     }
 
     private void selectArranque() {
@@ -487,7 +481,7 @@ public class FXMLDocumentController implements Initializable {
     }
 
     private void calculoPrecioPizza() {
-        DecimalFormat df=new DecimalFormat("00.00");
+        DecimalFormat df = new DecimalFormat("0.00");
         double totalfinal;
         String formateado;
         if (tipoMasa() == null && tipoPizza() == null) {
@@ -499,7 +493,7 @@ public class FXMLDocumentController implements Initializable {
         } else {
             labError.setText("");
             totalfinal = (listaPizzas.get(tipoPizza()) + listaMasas.get(tipoMasa()) + totalIngre()) * listaTamaños.get(tipoTamaño());
-            formateado =df.format(totalfinal);
+            formateado = df.format(totalfinal);
             precioFinal.setText(String.valueOf(formateado) + "€");
         }
     }
