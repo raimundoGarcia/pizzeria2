@@ -1,0 +1,163 @@
+
+.pMargarita{
+    -fx-background-image: url("\margarita.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+.iAceitunas{
+    -fx-background-image: url("\aceituna.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+
+}
+
+.iTomate{
+    -fx-background-image: url("\tomate.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+
+.p4estaciones{
+    -fx-background-image: url("\4estaciones.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+
+.pCuatroQuesos{
+    -fx-background-image: url("\4quesos.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+
+.mRellena{
+    -fx-background-image: url("\rellena.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#cc9900;
+    -fx-border-radius:3px;
+}
+
+.iBBQ{
+    -fx-background-image: url("\SalsaBBQ.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+
+.iPollo{
+    -fx-background-image: url("\pollo.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+
+.pEmpresa{
+    -fx-background-image: url("\fatore.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+
+.pBBQ{
+    -fx-background-image: url("\BBQ.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+
+.mIntegral{
+    -fx-background-image: url("\integral.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#cc9900;
+    -fx-border-radius:3px;
+}
+
+.iQueso{
+    -fx-background-image: url("\queso.JPG");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+
+.iJamon{
+    -fx-background-image: url("\jamon.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+.iCarnePicada{
+    -fx-background-image: url("\carnePicada.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+.iCebolla{
+    -fx-background-image: url("\cebolla.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+.pMarinera{
+    -fx-background-image: url("\marinera.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+.pProscuto{
+    -fx-background-image: url("\proscuto.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+.mNormal{
+    -fx-background-image: url("\normal.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#cc9900;
+    -fx-border-radius:3px;
+}
+.pBolognesa{
+    -fx-background-image: url("\bolognesa.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+    -fx-border-radius:3px;
+}
+.mFina{
+    -fx-background-image: url("\fina.jpg");
+    -fx-border-width:3px;
+    -fx-border-color:#cc9900;
+    -fx-border-radius:3px;
+}
+
+.panelPizzas{
+    -fx-background-color:#9999ff;
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+}
+
+.panelIngredientes{
+    -fx-background-color:#9999ff;
+    -fx-border-width:3px;
+    -fx-border-color:#0033cc;
+}
+
+.panelMasas{
+    -fx-background-color: #ffcc33;
+    -fx-border-width:3px;
+    -fx-border-color:#cc9900;
+}
+
+.panelRadio{
+    -fx-background-color: #ffcc33;
+    -fx-border-width:3px;
+    -fx-border-color:#cc9900;
+}
+.logo{
+    -fx-background-image: url("\logo.jpg")
+}
+.logo2{
+    -fx-background-image: url("\logo2.jpg")
+}
