@@ -10,11 +10,13 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
+import javafx.scene.control.ScrollBar;
 import javafx.scene.control.SplitPane;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TitledPane;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.control.ToggleGroup;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 
 public class FXMLDocumentController implements Initializable {
@@ -110,11 +112,18 @@ public class FXMLDocumentController implements Initializable {
     private TitledPane panelDetalles;
     @FXML
     private Label labError;
+    @FXML
+    private Pane logo;
+    @FXML
+    private Pane logo2;
+    @FXML
+    private AnchorPane paneBase;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         selectArranque();
         cargarListas();
+        paneBase.setStyle("-fx-background-color: white");
 
     }
 
